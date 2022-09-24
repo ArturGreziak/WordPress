@@ -7,3 +7,29 @@ Tested up to: 6.0
 Requires PHP: 5.6
 Version: 1.0
 */
+
+.page_title_w {
+    color: #aaa;
+}
+
+.main_content_w {
+    color: #888;
+}
+.main_section_description_w {
+    text-align: center;
+    text-transform: uppercase;
+    color: brown;
+    /* line-height: 500%; */
+}
+
+.last_post_section_w {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last_post_item_w {
+    flex: 1 1 0;
+        box-shadow: 3px 3px 3px #ccc;
+        padding: 20px;
+}
