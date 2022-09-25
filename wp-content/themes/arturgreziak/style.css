@@ -5,7 +5,7 @@ Description: Built on a solidly designed foundation, Twenty Twenty-Two embraces 
 Requires at least: 5.9
 Tested up to: 6.0
 Requires PHP: 5.6
-Version: 1.0
+Version: 1.0   
 */
 
 .page_title_w {
@@ -19,17 +19,17 @@ Version: 1.0
     text-align: center;
     text-transform: uppercase;
     color: brown;
-    /* line-height: 500%; */
+    line-height: 500%;
 }
 
-.last_post_section_w {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.last_posts_section_w {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .last_post_item_w {
-    flex: 1 1 0;
-        box-shadow: 3px 3px 3px #ccc;
-        padding: 20px;
+    flex: 1 1;
+        border: 1px solid #ccc;
+        padding: 2rem;
 }
